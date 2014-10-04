@@ -3,5 +3,5 @@ Bloccit::Application.routes.draw do
 
    get 'about' => 'welcome#about'
 
-  root to: 'welcome#index'
+  root to: 'posts#index'
 end
